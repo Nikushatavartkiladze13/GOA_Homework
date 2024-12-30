@@ -1,38 +1,29 @@
+<!-- 
+    1) შექმენით ფორმა 4 input-ით სახელისთვის გვარისთვის ემაილისთვის და პაროლისთვის გამოიყენეთ ყველა ნასწავლი ატრიბუტი
+-->
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Login</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
     <link rel="stylesheet" href="hw.css">
-    <link rel="icon" href="https://images.ctfassets.net/o78em1y1w4i4/LHN0F94cNFCx1drEcfcsY/984e632abf38018f2a6ab22c4b61fdc6/teaser-book-with-heart-pages.jpg?fm=webp&w=1080&q=75">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+
 </head>
-<body>   
-    <select name="section" id="section">
-        <option value="-18">-18</option>
-        <option value="18-30">18-30</option>
-        <option value="31-50">31-50</option>
-    </select>                     
-    <div class="Login">
-        <h1>login</h1>
-        <form>
-            <input type="text" id="name" required name="name" placeholder="name">
-            <label for="name"><i class='bx bx-user'></i></label>
+<body>
+    <div class="box00">
+        <br><br><br>
+        <form action="#">
             <br><br>
-            <input type="text" id="last_name" required name="lastname" placeholder="Last name">
-            <label for="Last_name"><i class='bx bx-user'></i></label>
-            <br><br>
-            <input type="password" id="password" required name="Password" maxlength="10" minlength="4" placeholder="Password">
-            <label for="password"><i class='bx bx-lock'></i></label>
-            <br><br>
-            <input type="checkbox" id="CheckBox" name="Remember">
-            <label for="CheckBox">Remember information </label><br><br>
-            <input type="submit" id="submit">
-        </form>  
+            <h1>Sign In GOA</h1>
+            <input type="text" required placeholder="First Name">
+            <input type="text" required placeholder="Last Name">
+            <input type="email" required placeholder="Email">
+            <input type="password" required placeholder="Password" >
+            <button type="submit">Sign In</button>
+        </form>
     </div>
-                                    <!-- More Information -->
-    <p>More information: <br><br>
-        <a href="#">facebook</a> <br>
-        <a href="#">YouTube</a> <br>
-    </p>
 </body>
 </html>

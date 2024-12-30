@@ -3,30 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="hw03.css">
+    <title>registration
+    </title>
+    <style>
+        div{
+            background-color:rgb(139, 139, 139);
+            width:380px;
+            height:500px;
+            border-radius:20px;
+            margin:auto;
+        }
+        h1{
+            text-align:center;
+            font-size:30px;
+        }
+        form label{
+            font-size:15px;
+            padding:10px;
+        }
+        form input{
+            
+            border-radius:5px;
+        }
+    </style>
 </head>
 <body>
     <div>
-        <h1>Personal details</h1><br><br>
-        <label for="section">Salution</label><br>
-        <select name="select" >
-            <option value="none">--none--</option>
-        </select><br><br>
-        <label for="name">First name: </label>
-        <input type="text" placeholder="name" required name="name" id="name"><br><br>
-        <label for="last_name">Last name:</label>
-        <input type="text" placeholder="last name" required name="last_name"><br><br>
-        <p>Gender:</p>
-        <input type="radio" name="gender" required id="Male">
-        <label for="Male">Male</label>
-        <input type="radio" name="gender" required id="Female">
-        <label for="Female">Female</label><br><br>
-        <label for="date">Date of Birth:</label>
-        <input type="date"><br><br>
-        <label for="address">Address:</label><br>
-        <input type="text" required id="address"><br><br>
+
+    <h1>Registration form</h1>
+    <br><br>
+    <form>
+        <label for="name">First name</label>
+        <input type="text" required>
+        <br><br>
+        <label for="Last Name">Last Name</label>
+        <input type="text" required>
+        <br><br>
+        <label for="Nick Name">Nick Name</label>
+        <input type="text" required>
+        <br><br>
+        <labe for="email">Email</labe>
+        <input type="email" required >
+        <br><br>
+        <label for="data of birth">Date of birth</label>
+        <input type="date" required>
+        <br><br>
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="sipping" id="rad1" value="standard" required>
+        <label for="rad1" style="font-size:15px;">Male</label>
+        <input type="radio" name="sipping" id="rad2" value="standard" required>
+        <label for="rad2" style="font-size:15px;">Female</label> 
+        <input type="radio" name="sipping" id="rad3" value="standard" required>
+        <label for="rad3" style="font-size:15px;">others</label> 
+        <br><br>
+        <label for="mobile">Mobile</label>
+        <input type="number"required>
+        <br><br>
         <input type="submit">
+    </form>
     </div>
 </body>
 </html>
