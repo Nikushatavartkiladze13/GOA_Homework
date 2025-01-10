@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(243, 234, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section{
+    width: 523px;
+    height: 391px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.box00{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.img00{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.box01{
+    font-family: "Figtree", serif;
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 12px 12px 0px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+
+    gap: 20px;
+    padding: 15px;
+}
+
+.Per{
+    font-size: 0.8rem;
+    opacity: 63%;
+    text-transform: uppercase;
+    position: relative;
+    top: 7px;
+}
+
+.h01{
+    width:65%;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    margin-top: 10px;
+    
+}
+.floral{
+    opacity: 70%;
+}
+
+.box_p{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+h1{
+    color: hsl(158, 36%, 37%);
+}
+
+.p19{
+    font-size: 0.8rem;
+    opacity: 60%;
+    text-decoration: line-through;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+}
