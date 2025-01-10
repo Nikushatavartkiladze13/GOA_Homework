@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141414;
+}
+
+.box00{
+    width: 285px;
+    height: 445px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    padding: 26px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.jesica{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+
+}
+.p0{
+    font-family: "Roboto", serif;
+    font-weight: 450;
+    font-style: normal;
+    color:white;
+    font-size: 17.8px;
+    position: relative;
+    text-align: center;
+
+
+}
+.p01{
+    font-family: "Roboto", serif;
+    width:125px;
+    font-size: 10.9px;
+    font-weight: 600;
+    color: rgb(196, 223, 83);
+    position: relative;
+    text-align: center;
+
+
+}
+.p02{
+    font-size: 11.8px;
+    color: rgb(190, 190, 190);
+    position: relative;
+    top: 5px;
+    font-family: "Roboto", serif;
+}
+.box01{
+    width: 100%;
+    height: 80px;
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top:10px;
+    gap: 6px;
+}
+
+.bt00{
+    width: 100%;
+    border-radius: 6px;
+    background-color: #333333;
+    border:none;
+    height:34px;
+    font-family: "Roboto", serif;
+    color: white;
+    font-weight: 500;
+    transition: 1s;
+}
+
+.bt00:hover{
+    background-color: rgb(196, 223, 83);
+}
+.box02{
+    width:100%;
+    height: 226px;
+    background-color: #1f1f1f;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    
+}
