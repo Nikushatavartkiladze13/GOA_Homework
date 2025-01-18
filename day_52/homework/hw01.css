@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blue;
+    box-shadow: 10px 10px 60px red,
+    -10px -10px 60px green;
+    transition: transform 1s;
+}
+
+div:hover{
+    transform: scale(2);
+}

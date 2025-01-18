@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 14px;
+    transition: 1s;
+
+}
+
+div:hover{
+    transform: translate(20px, 10px);
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    width:400px;
+    height: 400px;
+    background-color: blue;
+    transition: 1s;
+}
+
+div:hover{
+    transform: translate(50px, 100px);
+}
