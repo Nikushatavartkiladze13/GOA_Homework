@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    animation-name: ball;
+    animation-duration: 1s;
+}
+
+@keyframes ball{
+    from{
+        border: 2px solid black;
+        transform: translate(0px);
+    }
+    to{
+        border: 2px solid black;
+        transform: translatey(-500px)
+    }
+}

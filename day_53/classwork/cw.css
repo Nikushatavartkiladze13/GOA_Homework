@@ -19,7 +19,7 @@ div{
     border-radius: 20px;
     border: 1px solid black;
     background-color: black;
-    transition: 3s;
+    transition: 3s ease-in-out;
     transition-delay: 1s;
     
 }
