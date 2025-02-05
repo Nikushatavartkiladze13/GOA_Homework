@@ -18,16 +18,13 @@ div{
     border-radius: 50%;
     border: 2px solid black;
     animation-name: ball;
-    animation-duration: 1s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
 }
 
 @keyframes ball{
-    from{
-        border: 2px solid black;
-        transform: translate(0px);
-    }
-    to{
-        border: 2px solid black;
-        transform: translatey(-500px)
+    0%{
+        transform: translateY();
     }
 }
