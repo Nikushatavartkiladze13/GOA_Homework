@@ -1,22 +1,29 @@
 # დაწერეთ ისეთი პროგრამა რომელიც მომხმარებელს უპრინტავს კვირის დღეს მომხმარებლის შემოტანილი რიცხვის მიხედვით (1 არის ორშაბათი, 2 სამშაბათი და ა.შ) გამოიყენეთ if elif else
 
 
-user_text = input("შეიყვანე კვირის დღე: ")
+print("1. ორშაბათი")
+print("2. სამშაბათი")
+print("3. ოთხშაბათი")
+print("4. ხუთშაბათი")
+print("5. პარასკევი")
+print("7. შაბათი")
+print("8. კვირა")
 
+day = input("choose day: ")
 
-if user_text == "1":
+if day == "1" or day == "ორშაბათი":
     print("ორშაბათი")
-elif user_text == "2":
+elif day == "2" or day == "სამშაბათი":
     print("სამშაბათი")
-elif user_text == "3":
+elif day == "3" or day == "ოთხშაბათი":
     print("ოთხშაბათი")
-elif user_text == "4":
+elif day == "4" or day == "ხუთშაბათი":
     print("ხუთშაბათი")
-elif user_text == "5":
+elif day == "5" or day == "პარასკევს":
     print("პარასკევი")
-elif user_text == "6":
+elif day == "6" or day == "შაბათი":
     print("შაბათი")
-elif user_text == "7":
+elif day == "7" or day == "კვირა":
     print("კვირა")
-else:
-    print("არასწორია")
+else: 
+    print("choose day")
