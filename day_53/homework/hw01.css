@@ -20,11 +20,17 @@ div{
     animation-name: ball;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-    animation-delay: 2s;
+    /* animation-delay: 2s; */
 }
 
 @keyframes ball{
     0%{
         transform: translateY();
+    }
+    5%{
+        transform: translateY(100px);
+    }
+    15%{
+        transform: translateY(-100px);
     }
 }
