@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/sansation-light');
+@import url('https://fonts.cdnfonts.com/css/sansation');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+#div-nav1 ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style-type: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    letter-spacing: 0%;
+}
+
+#home-nav {
+    font-weight: 700;
+}
+
+#div-nav2 {
+    display: flex;
+    gap: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    letter-spacing: 0%;
+    align-items: center;
+}
+
+#div-sign-up {
+    display: flex;
+    border: 1px solid #003478;
+    width: 108px;
+    height: 48px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #003478;
+}
+
+#div-sign-in {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    letter-spacing: 0%;
+    align-items: center;
+}

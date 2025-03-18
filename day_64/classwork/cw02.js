@@ -1,0 +1,6 @@
+var userNum = Number(prompt('Enter num: '))
+var userNumOne = Number(prompt('Enter num 2: '))
+console.log(userNum/userNumOne)
+console.log(userNum-userNumOne)
+console.log(userNum*userNumOne)
+console.log(userNum+userNumOne)

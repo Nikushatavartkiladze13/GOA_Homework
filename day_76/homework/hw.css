@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98.3vh;
+    flex-wrap: wrap;
+}
+
+#counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 300px;
+    margin: 0;
+    color: blue;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#increase, #dicrease {
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+#increase {
+    background-color: rgb(87, 184, 87);
+    transition: 0.5s;
+}
+
+#dicrease {
+    background-color: red;
+    transition: 0.5s;
+}
+
+#reset {
+    width: 400px;
+    height: 50px;
+    border: none;
+    background-color: yellow;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#increase:hover {
+    background-color: green;
+}
+
+#dicrease:hover {
+    background-color: rgb(182, 73, 73);
+}
+
+#reset:hover {
+    background-color: rgb(177, 177, 16);
+}

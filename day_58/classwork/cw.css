@@ -17,11 +17,14 @@
     .parent{
         display:grid;
         grid-template-columns: 200px 200px 200px;
+        gap: 30px;
     }
 }
 @media(max-width:450px){
     .parent{
+        background-color: red;
         display:grid;
         grid-template-columns: 200px ;
+        gap: 30px;
     }
 }
